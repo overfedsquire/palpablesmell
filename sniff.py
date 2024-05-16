@@ -7,5 +7,6 @@ if __name__ == "__main__":
         print(c, end="")
     print()
 
-    subprocess.call(["echo", "Hello,", "World?!"])
+    returncode = subprocess.call(["echo", "Hello,", "World?!"])
+    print(returncode)
 
