@@ -10,3 +10,5 @@ if __name__ == "__main__":
     returncode = subprocess.call(["echo", "Hello,", "World?!"])
     print(returncode)
 
+    exit(-1)
+
