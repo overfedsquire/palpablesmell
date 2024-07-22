@@ -2,9 +2,12 @@
 
 import subprocess
 
-if __name__ == "__main__":
+def hello():
     for c in "Hello, World!":
         print(c, end="")
+
+if __name__ == "__main__":
+    hello()
     print()
 
     returncode = subprocess.call(["echo", "Hello,", "World?!"])
