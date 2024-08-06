@@ -6,6 +6,7 @@ def hello():
     for c in "Hello, World!":
         print(c, end="")
 
+
 if __name__ == "__main__":
     hello()
     print()
